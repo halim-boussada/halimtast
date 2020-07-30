@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+
+
+
+
+
+
+    >
+
+        <group
+
+            android:id="@+id/menu_top"
+            android:checkableBehavior="single"
+            >
+        <item
+
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home Page"
+
+
+
+            />
+
+
+        <item
+            android:id="@+id/nav_trip"
+            android:icon="@drawable/icon"
+            android:title="Trip" />
+                <item
+                    android:id="@+id/nav_arcamera"
+                    android:icon="@drawable/ar_direction"
+                    android:title="AR Camera" />
+
+
+
+                <item
+                    android:id="@+id/nav_scaner"
+                    android:icon="@drawable/sign_scaner"
+                    android:title="Sign Scaner" />
+
+
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/user"
+            android:title="Profile" />
+
+
+
+
+
+
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@drawable/books"
+            android:title="Books" />
+
+
+        <item
+            android:id="@+id/nav_achivments"
+            android:icon="@drawable/award"
+            android:title="Achievement" />
+
+
+        <item
+            android:id="@+id/nav_chatbot"
+            android:icon="@drawable/chatbot"
+            android:title="Chat Bot" />
+
+        </group>
+
+
+
+
+
+        <group
+
+            android:id="@+id/bottom_top"
+            android:checkableBehavior="single"
+
+            >
+
+
+                <item
+                    android:id="@+id/nav_Trype_type"
+                    android:icon="@drawable/change_trip"
+                    android:title="Change Trip" />
+
+        </group>
+
+
+
+
+
+</menu>
